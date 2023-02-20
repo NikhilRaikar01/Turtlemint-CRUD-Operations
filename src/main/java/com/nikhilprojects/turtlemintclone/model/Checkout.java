@@ -27,8 +27,7 @@ public class Checkout {
     @NotBlank
     private Insurer insurer;
 
-//    private Profile profile;
-
+    private Profile profile;
     public Checkout(long checkoutId, String name, String email, String phone, Insurer insurer) {
         this.checkoutId = checkoutId;
         this.name = name;
